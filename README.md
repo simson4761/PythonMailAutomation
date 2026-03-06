@@ -49,6 +49,32 @@ data_payloads = [
 ---
 
 
+## 📎 Randomised Mail Attachments
+
+The script includes a **randomized attachment engine** that pulls files from a single local directory and assigns them to your email payloads.
+
+This is ideal for sending:
+- Rotating marketing materials
+- Varying report samples
+- Diverse image sets
+
+---
+
+
+## 🗃️ Directory Configuration
+
+Before running the script, ensure you define the **source folder** where all your potential attachments are stored.
+
+The script will look inside this **single folder** for all supported file types.
+
+```python
+# --- Common folder with all attachments ---
+ATTACHMENTS_DIR = r"C:\Users\<your-name>\Downloads"
+```
+
+---
+
+
 # 🔎 Field Descriptions
 
 - **type** → Category of the email (e.g., Reminder, Alert, Notification)  
